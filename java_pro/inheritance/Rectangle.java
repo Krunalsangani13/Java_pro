@@ -9,12 +9,12 @@ public class Rectangle {
 		this.breadth = breadth;
 	}
 	
-	public void area() {
+	public void printArea() {
 		double area=length*breadth;
 		System.out.println("Area of the rectangle: " + area);
 	}
 	
-	public void perimeter() {
+	public void printPerimeter() {
 		double perimeter=2*(length+breadth);
 		System.out.println("Perimeter of the rectangle: " + perimeter);
 	}
